@@ -14,6 +14,8 @@
 		9501497B2383E20E002F811C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9501497A2383E20E002F811C /* Assets.xcassets */; };
 		9501497E2383E20E002F811C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9501497D2383E20E002F811C /* Preview Assets.xcassets */; };
 		950149812383E20E002F811C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9501497F2383E20E002F811C /* LaunchScreen.storyboard */; };
+		9501498A2383E33B002F811C /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950149882383E33B002F811C /* Movie+CoreDataClass.swift */; };
+		9501498B2383E33B002F811C /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950149892383E33B002F811C /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9501497D2383E20E002F811C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		950149802383E20E002F811C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		950149822383E20E002F811C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950149882383E33B002F811C /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		950149892383E33B002F811C /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		950149702383E20E002F811C /* CreatingNSManagedObjectSubclassesCoreDataSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				950149882383E33B002F811C /* Movie+CoreDataClass.swift */,
+				950149892383E33B002F811C /* Movie+CoreDataProperties.swift */,
 				950149712383E20E002F811C /* AppDelegate.swift */,
 				950149732383E20E002F811C /* SceneDelegate.swift */,
 				950149782383E20E002F811C /* ContentView.swift */,
@@ -152,6 +158,8 @@
 				950149772383E20E002F811C /* CreatingNSManagedObjectSubclassesCoreDataSwiftUI.xcdatamodeld in Sources */,
 				950149722383E20E002F811C /* AppDelegate.swift in Sources */,
 				950149792383E20E002F811C /* ContentView.swift in Sources */,
+				9501498A2383E33B002F811C /* Movie+CoreDataClass.swift in Sources */,
+				9501498B2383E33B002F811C /* Movie+CoreDataProperties.swift in Sources */,
 				950149742383E20E002F811C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
